@@ -4,7 +4,7 @@ from mlflow_utils import get_mlflow_experiment
 if __name__=="__main__":
 
     #retrieve the mlflow experiment
-    experiment = get_mlflow_experiment(experiment_id="330499322691647506")
+    experiment = get_mlflow_experiment(experiment_id="868321757832875117")
 
     print("Name: {}".format(experiment.name))
     print("Experiment_id: {}".format(experiment.experiment_id))
